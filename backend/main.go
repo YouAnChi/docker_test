@@ -15,7 +15,7 @@ func main() {
 
 	// 配置CORS
 	config := cors.DefaultConfig()
-	config.AllowOrigins = []string{"http://localhost:3000"}
+	config.AllowOrigins = []string{"http://localhost:3001"}
 	r.Use(cors.New(config))
 
 	// API路由
@@ -26,7 +26,7 @@ func main() {
 		api.POST("/data", postData)
 	}
 
-	r.Run(":8080")
+	r.Run(":8081")
 }
 
 // 健康检查

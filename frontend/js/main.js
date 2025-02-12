@@ -1,5 +1,5 @@
 // API基础URL
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = 'http://localhost:8081';
 
 // DOM元素
 const dataList = document.getElementById('data-list');
